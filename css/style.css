@@ -1,0 +1,670 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*main page component end------------------------------*/
+
+.whiteBar {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    top: 0px;
+    background: #f5f5f5;
+    color: #888888;
+}
+
+.whiteBar ul { 
+    padding-left: 0px;
+}
+
+.whiteBar li{
+    display: inline;
+    padding: 10px;
+}
+
+.whiteBar a {
+    color: #888888;
+}
+
+.whiteBar a:hover {
+    text-decoration: none;
+    color: #0aa6b3;
+}
+
+.whiteBar p {
+    float: right;
+}
+
+.lineup a{
+    color: #0aa6b3;
+}
+
+.lineup a:hover {
+    color: #77ced7;
+}
+
+/* topNav bar end--------------------------------------*/
+
+
+.mainBar {
+    margin-top: 20px;
+}
+
+.topPush {
+    margin-top: 45px;
+    padding-left: 227px;
+    border: none;
+}
+
+.topPush a {
+    padding: 11px 15px;
+    text-decoration: none;
+}
+
+.topPush i {
+    padding-right: 10px;
+}
+
+.language {
+    margin: 0px;
+    padding: 10px 15px;
+    background: #e6e6e6;
+    color: #626665;
+}
+
+.grey:hover {
+    background: #0aa6b3;
+    color: white;
+}
+
+/*dropdown section-------------------------------------*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 11px 15px;
+    border: none;
+    background-color: #e6e6e6;
+    color: #626665;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*dropdown END-----------------------------------------*/
+
+.teal{
+    background: #0ca5b3;
+    color: white;
+    float: right;
+}
+
+.teal:hover {
+    background: white;
+    border: 1px solid #0ca5b3;
+    color: #0ca5b3;
+}
+
+.padding {
+    float: right;
+}
+
+.padding i {
+    height: 33px;
+    width: 33px;
+    background: #e6e6e6;
+    color: #626665;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 2;
+}
+
+.remove {
+    padding: 0px;
+}
+
+.remove a {
+    padding-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.remove a:hover {
+    text-decoration: none;
+    color: #77ced7;
+}
+
+.search {
+    width: 220px;
+    margin-right: 3px;
+    padding: 4px 5px;
+}
+
+.adjust {
+    margin-top: 10px;
+}
+
+.adjust li{
+    display: inline;
+    padding: 10px;
+}
+
+/*mainbar END------------------------------------------*/
+
+.heroColor {
+    position: relative;
+    margin-top: 10px;
+    background: linear-gradient(0deg, #d1d2cd, #e6e5e3, #e3e3e1)
+}
+
+.heroColor img{
+    height: 400px;
+    padding: 0px;
+    margin-left: 28%;
+}
+
+.float {
+    position: absolute;
+    height: 215px;
+    width: 450px;
+    padding: 0px;
+    top: 24%;
+    left: 55%;
+}
+
+.float a {
+    padding: 8px 20px;
+    border-radius: 2px;
+    background: #434b4d;
+    color: white;
+    text-transform: uppercase;
+}
+
+.float a:hover {
+    background: white;
+    color: #434b4d;
+    text-decoration: none;
+}
+
+.blueSlash {
+    margin: 0px;
+    height: 45px;
+    width: 100px;
+    background: #0ca5b3;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.blackSlash {
+    margin: 0px;
+    padding-left: 10px;
+    height: 45px;
+    width: 225px;
+    background: rgb(56, 57, 59);
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    line-height: 1.4;
+}
+
+.downPush {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    position: absolute;
+    padding: 0px;
+    width: 225px;
+    top: 93%;
+    left: 42%;
+}
+
+.buttons ul {
+    padding: 0px;
+}
+
+.buttons li {
+    display: inline;
+}
+
+.buttons button {
+    padding: 1px 35px;
+    border-color: #434b4d;
+    background: #434b4d;
+}
+
+.buttons button:hover {
+    border-color: #0ca5b3;
+}
+
+/*hero END-------------------------------------------*/
+
+.topPushTwo {
+    margin-top: 40px;
+}
+
+.right {
+    padding-right: 13px;
+}
+
+.squeeze {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*secondBar END-------------------------------------*/
+.big {
+    border-left: 3px solid #0ca5b3;
+    padding-left: 10px;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.greyLine {
+    height: 0.5px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background: rgb(128, 128, 128);
+    opacity: 0.3;
+}
+
+.down {
+    margin-bottom: 15px;
+}
+
+.push {
+    margin-top: 5px;
+    padding-left: 175px;
+}
+
+.not {
+    margin: 0px;
+}
+
+button {
+    padding: 5px 20px;
+    margin-left: 1px;
+    background: #fafafa;
+    border: 0.5px solid #dfdfdf;
+    color: grey;
+}
+
+button:hover {
+    background: #13bfcb;
+}
+
+/*selectionTitle One END-------------------------------*/
+
+.sizing img {
+    width: 260px;
+    height: 300px;
+}
+
+.sizing a {
+    margin-left: 70px;
+    padding: 10px 15px;
+    background: #44494c;
+    color: #e7e8ea;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sizing a:hover {
+    text-decoration: none;
+    background: #e7e8ea;
+    color: #44494c;
+}
+
+.sizing p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ball {
+    position: absolute;
+    top: 215px;
+    left: 190px;
+    height: 80px;
+    width: 80px;
+    background: #13bfcb;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 4;
+}
+
+.square {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    width: 80px;
+    background: #fe0096;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+.new {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    width: 80px;
+    background: #0aa6b3;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.stars {
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.stars li{
+    display: inline;
+}
+
+.stars i {
+    color: #f4cb35;
+}
+
+.pushDown {
+    padding-top: 30px;
+}
+
+/*selection one END---------------------------------*/
+
+.topPushing {
+   margin-top: 60px;
+   margin-bottom: 30px;
+}
+
+.increase p{
+    font-size: 15px;
+}
+
+.increase a{
+    color: #13bfcb;
+}
+
+.increase a:hover{
+    text-decoration: none;
+}
+
+.downward {
+    margin-top: 45px;
+}
+
+.noBottom {
+    margin-bottom: 0px;
+}
+
+/*About section END---------------------------------*/
+
+.greyLineTwo {
+    height: 0.7px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 125px;
+    background: rgb(128, 128, 128);
+    opacity: 0.3;
+}
+
+/*selectionTitle Two END-----------------------------*/
+
+.greyLineThree {
+    height: 0.5px;
+    width: 755px;
+    margin-top: 20px;
+    margin-left: 175px;
+    background: grey;
+    opacity: 0.3;
+}
+
+/*selectionTitle Three END--------------------------*/
+
+.brand img{
+    height: 100px;
+    width: 160px;
+    margin-bottom: 80px;
+}
+
+/*Brand Logo END------------------------------------*/
+
+footer {
+    color: #0ca5b3;
+}
+
+h4 {
+    padding-left: 25px;
+}
+
+footer p {
+    padding-top: 15px;
+    color: white;
+}
+
+footer ul {
+    padding-top: 5px;
+    list-style-type: square;
+}
+
+footer li {
+    padding-top: 10px;
+}
+
+footer a {
+    color: #0ca5b3;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*footer mainComponent END-------------------------*/
+
+.dontMove { 
+    padding-left: 0px;
+}
+
+/*header four overall END--------------------------*/
+
+.lightGrey {
+    background: #d6d6d6;
+    color: black;
+}
+
+.pushThree {
+    padding-left: 190px;
+    padding-right: 0px;
+}
+
+.exclude {
+    font-size: 25px;
+}
+
+.email {
+    width: 300px;
+    padding: 5px 15px;
+    margin-right: 5px;
+    border: 2px solid #fce116;
+    background: #d6d6d6;
+    border-radius: 2px;   
+}
+
+.pushThree a {
+    padding: 8px 18px;
+    background: #434b4d;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pushThree a:hover {
+    text-decoration: none;
+    background: white;
+    color: #434b4d;
+}
+
+.lightGreyBarSize {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+/*lightGreyBar END----------------------------------*/
+
+.darkGrey {
+    padding-bottom: 10px;
+    background: #434b4d;
+}
+
+.darkGrey h4 {
+    color: white;
+}
+
+/*background END----------------------------------*/
+
+.light a {
+    color: white;
+}
+
+.light a:hover {
+    text-decoration: none;
+    color:  #0ca5b3;
+}
+
+/*first slot END---------------------------------------*/
+
+.shrink {
+    font-size: 12px;
+}
+
+.faded {
+    padding-top: 0px;
+    font-size: 12px;
+    opacity: 0.5
+}
+
+/*second slot END----------------------------------------*/
+
+
+/*third slot END-----------------------------------------*/
+
+.paddingRemove {
+    padding-right: 5px;
+}
+
+.backing {
+    border-radius: 3px;
+    background: #0ca5b3;
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    float: right;
+}
+
+.backing:hover {
+    background: white;
+    color: #0ca5b3;
+}
+
+.fa-thumbs-up {
+    padding-right: 3px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin-left: 5px;
+    padding: 10px;
+}
+
+/*fourth slot END-------------------------------------*/
+
+/*darkgrey (top) END---------------------------------*/
+
+.greyline {
+    height: 2px;
+    background: #38393b;
+    border-bottom: 1px solid #535758;
+}
+
+/*greyline END---------------------------------------*/
+
+.footerPadding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.bottomLine {
+    float: left;
+}
+
+.bottomLine i { 
+    height: 30px;
+    width: 30px;
+    background: #626665;
+    border: 1px solid #626665;
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+    line-height: 2;
+}
+
+.bottomLine i:hover {
+    background: #0ca5b3;
+    border-color: #0ca5b3;
+}
+
+.copyright {
+   float: right;
+   opacity: 0.4;
+}
+
+/*darkGrey (bottom) END------------------------------*/
+
+/*footer END---------------------------------------*/
